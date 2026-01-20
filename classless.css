@@ -6,9 +6,9 @@
 
  :root {
     /* Modern Color Palette */
-    --primary: #364153;
-    --primary-contrast: #202732;
-    --primary-invert: #364153;
+    --primary: #13181f;
+    --primary-contrast: #13181f;
+    --primary-invert: #cbe0ff;
     --secondary: #64748b;
     --secondary-light: #94a3b8;
     --success: #10b981;
@@ -21,19 +21,19 @@
     --info-light: #38bdf8;
     --light: #f8fafc;
     --dark: #1e293b;
-    --body-bg: #ffffff;
-    --body-color: #334155;
-    --heading-color: #1e293b;
-    --link-color: #1d72fc;
+    --body-bg: #0b1927;
+    --body-color: #e2e8f0;
+    --heading-color: #f8fafc;
+    --link-color: #61aeff;
     --link-hover-color: #0b65ff;
-    --border-color: #e2e8f0;
-    --shadow-color: rgba(0, 0, 0, 0.1);
-    --card-bg: #ffffff;
-    --progress-color: #60ed7c;
-    --input-icon-color: #64748b;
+    --border-color: #334155;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --card-bg: #1e293b;
+    --progress-color: #2f9e45;
+    --input-icon-color: #e2e8f0;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-contrast) 100%);
+    --gradient-primary: linear-gradient(135deg, var(--primary-invert) 0%, var(--primary-invert) 100%);
     --gradient-link: linear-gradient(135deg, var(--link-color) 0%, var(--link-hover-color) 100%);
     --gradient-secondary: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
     --gradient-success: linear-gradient(135deg, var(--success) 0%, var(--success-light) 100%);
