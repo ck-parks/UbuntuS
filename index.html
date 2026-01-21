@@ -3,12 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="classless.css"> -->
      <link rel="stylesheet" href="./css/main.css">
     <title>Ubuntu Study Environment</title>
 </head>
 
 <body>
+    <style>
+    .glass-demo {
+        background-image: url('./images/glassdemo.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .toggle-container label {
+        display: block;
+    }
+
+    .toggle-container .toggle-label {
+        margin-left: 0.25em;
+    }
+
+    .toggle-container {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        background-color: #000000;
+        border-radius: 0.375rem;
+        color: white;
+        padding: 0.5rem 1rem;
+        z-index: 1;
+    }
+</style>
     <header>
     <h1>Testing Server</h1>
     <p>If you somehow reached this page, it's a testing environment being used to learn about linux, web servers, and various other things. 
@@ -256,8 +286,8 @@ console.log(greet('World'));</code></pre>
         <p>Worth exactly 1,000 words, no more, no less.</p>
 
         <figure>
-            <img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=800&h=500&fit=crop" alt="Sunrise over invisible mountains">
-            <figcaption>A beautiful sunrise over invisible mountains</figcaption>
+            <img src="./images/glassdemo.jpg" alt="Night sky over mountains & reflected in lake">
+            <figcaption>Night sky over mountains & reflected in lake</figcaption>
         </figure>
     </section>
 
@@ -303,9 +333,9 @@ console.log(greet('World'));</code></pre>
 </main>
 
 <footer>
-    <small>Made with 💗 by
+    <small>Originally made with 💗 by
         <a href="https://digitallytailored.com/" target="_blank" title="Digitally Tailored - Custom Web Solutions"
-           aria-label="Made with love by Digitally Tailored, experts in custom website solutions and web design and development">Digitally
+           aria-label="Original was made with love by Digitally Tailored, experts in custom website solutions and web design and development">Digitally
             Tailored</a></small>
 </footer>
 
